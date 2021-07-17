@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-builder/static/css/main.4d62d2c4.chunk.css",
+    "main.js": "/frontend-builder/static/js/main.e819ceeb.chunk.js",
+    "main.js.map": "/frontend-builder/static/js/main.e819ceeb.chunk.js.map",
+    "runtime-main.js": "/frontend-builder/static/js/runtime-main.2d3ce5e2.js",
+    "runtime-main.js.map": "/frontend-builder/static/js/runtime-main.2d3ce5e2.js.map",
+    "static/css/2.3ceb25c6.chunk.css": "/frontend-builder/static/css/2.3ceb25c6.chunk.css",
+    "static/js/2.a7b94706.chunk.js": "/frontend-builder/static/js/2.a7b94706.chunk.js",
+    "static/js/2.a7b94706.chunk.js.map": "/frontend-builder/static/js/2.a7b94706.chunk.js.map",
+    "index.html": "/frontend-builder/index.html",
+    "static/css/2.3ceb25c6.chunk.css.map": "/frontend-builder/static/css/2.3ceb25c6.chunk.css.map",
+    "static/css/main.4d62d2c4.chunk.css.map": "/frontend-builder/static/css/main.4d62d2c4.chunk.css.map",
+    "static/js/2.a7b94706.chunk.js.LICENSE.txt": "/frontend-builder/static/js/2.a7b94706.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d3ce5e2.js",
+    "static/css/2.3ceb25c6.chunk.css",
+    "static/js/2.a7b94706.chunk.js",
+    "static/css/main.4d62d2c4.chunk.css",
+    "static/js/main.e819ceeb.chunk.js"
+  ]
+}
