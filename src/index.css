@@ -21,4 +21,11 @@
 }
 .explorer .wrapper{
   flex-grow: 1;
+  overflow: scroll;
 }
+
+.codeDisplay{
+  padding: 10px;
+  overflow: scroll;
+}
+
