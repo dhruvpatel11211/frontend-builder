@@ -6,16 +6,21 @@ function App() {
   const [css, setCss] = useState('')
   const [js, setjs] = useState('')
 
-  const srcDoc=`
+
+  const srcDoc = `
   <html>
     <body>${html}</body>
     <style>${css}</style>
     <script>${js}</script>
   </html>
   `
+
+
+
+  
   return (
     <div className="App">
-      <div class="code-editor">
+      <div className="code-editor">
         <Explorer
           language="xml"
           displayName="HTML"
@@ -31,9 +36,16 @@ function App() {
           displayName="JS"
           value={js}
           onChange={setjs} />
+        <div className="codeDisplay">
+          <pre>
+            {srcDoc}
+          </pre>
+        </div>
+
       </div>
-      <div class="live-view">
-        <iframe srcDoc={srcDoc} title="output" sandbox="allow-scripts" width="100%" height="100%" />
+      <div className="live-view" >
+        <iframe srcDoc={srcDoc} title="output" sandbox="allow-scripts" width="100%" height="220" />
+        Output
       </div>
     </div>
   );
